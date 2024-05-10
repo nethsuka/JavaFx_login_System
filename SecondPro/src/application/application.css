@@ -1,0 +1,29 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+Label{
+	-fx-font-weight: bold;
+}
+
+AnchorPane{
+	-fx-background-color: linear-gradient(to right, #28CEE7, #0047AB);
+}
+
+#login_btn{
+	-fx-background-color: #40E0D0;
+	-fx-font-weight: bold;
+	-fx-padding: 5px;
+	-fx-background-radius: 10px;
+}
+
+#login_btn:hover{
+	-fx-background-color:  #00C263;
+}
+
+#uname,#pw{
+	-fx-background-color: #A8F1F9;
+}
+
+#login_title{
+	-fx-background-color: #0047ab;
+	-fx-padding: 10px;
+}
